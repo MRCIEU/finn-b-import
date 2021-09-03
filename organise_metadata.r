@@ -55,10 +55,10 @@ a <- tibble(
 	oa_col = 2,
 	ea_col = 3,
 	snp_col = 4,
-	pval_col = 6,
-	beta_col = 7,
-	se_col = 8,
-	eaf_col = 9
+	pval_col = 5,
+	beta_col = 6,
+	se_col = 7,
+	eaf_col = 8
 )
 
 write.csv(a, file="input.csv")
